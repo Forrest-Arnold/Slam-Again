@@ -1,0 +1,16 @@
+//
+//  Player.swift
+//  Slam Again
+//
+//  Created by Leo Arnold on 8/21/25.
+//
+
+import Foundation
+
+struct Player {
+    let Name: String
+    var Health: Int
+    var Stamina: Int
+    var SlamMeter: Int
+    var Debuffs: Debuffs
+}
