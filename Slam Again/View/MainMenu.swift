@@ -7,14 +7,17 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainMenu: View {
     var body: some View {
         VStack {
             Topbar()
+            Spacer()
+            TileGeneration()
         }
     }
 }
 
+
 #Preview {
-    ContentView()
+    MainMenu()
 }

@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct CharacterComponent: View {
+struct CharacterDisplay: View {
     var body: some View {
         Rectangle()
             .foregroundStyle(.gray)
@@ -15,5 +15,5 @@ struct CharacterComponent: View {
 }
 
 #Preview {
-    CharacterComponent()
+    CharacterDisplay()
 }
