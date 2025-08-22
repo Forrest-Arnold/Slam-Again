@@ -11,7 +11,7 @@ import SwiftUI
 struct Slam_AgainApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainMenu()
         }
     }
 }

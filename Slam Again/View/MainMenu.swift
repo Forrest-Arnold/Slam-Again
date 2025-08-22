@@ -12,7 +12,6 @@ struct MainMenu: View {
         VStack {
             Topbar()
             Spacer()
-            TileGeneration()
         }
     }
 }

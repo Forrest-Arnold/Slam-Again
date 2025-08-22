@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+struct Card {
+    let name: String
+    let damage: Int
+    let stamina: Int
+    let range: Int
+    let debuff: InflictDebuff
+}

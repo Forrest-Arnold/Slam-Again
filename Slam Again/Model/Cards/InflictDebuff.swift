@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct InflictDebuff {
+    let poison = false
+    let burn = false
+    let exhaust = false
+}

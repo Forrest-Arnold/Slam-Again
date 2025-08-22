@@ -25,7 +25,7 @@ struct Topbar: View {
         }
         .padding()
         .frame(maxWidth: .infinity, alignment: .top) // full width, stays compact in height
-        .background(Color.gray.opacity(0.2)) // makes the bar visible
+        .background(Color.brown.opacity(0.2)) // makes the bar visible
     }
 }
 
