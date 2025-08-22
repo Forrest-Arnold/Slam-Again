@@ -8,9 +8,10 @@
 import Foundation
 
 struct Player {
-    let Name: String
-    var Health: Int
-    var Stamina: Int
-    var SlamMeter: Int
-    var Debuffs: Debuffs
+    let name: String
+    var location: Tile
+    var health: Int
+    var stamina: Int
+    var slamMeter: Int
+    var debuffs: Debuffs
 }

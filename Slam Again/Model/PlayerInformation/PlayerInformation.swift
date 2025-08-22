@@ -7,9 +7,15 @@
 
 import Foundation
 
-struct PlayerInformation {
-    let Name: String
-    var Coins: Int
-    var Gems: Int
+class PlayerInformation: ObservableObject {
+    let name: String
+    @Published var coins: Int
+    @Published var gems: Int
+    
+    init(name: String, coins: Int, gems: Int) {
+        self.name = name
+        self.coins = coins
+        self.gems = gems
+    }
 }
 

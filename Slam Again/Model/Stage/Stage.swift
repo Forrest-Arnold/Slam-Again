@@ -8,6 +8,18 @@
 import Foundation
 
 struct Stage {
-    // Each Size will be a Tile
-    let Size = 9
+    let size: Int
+    var tiles: [Tile]
+    
+    init(size: Int) {
+        self.size = size
+        self.tiles = []
+        
+        // Generate tiles equal to size
+        for index in 0..<size {
+            let tile = Tile(location: index, size: 1, debuffs: Debuffs())
+            self.tiles.append(tile)
+        }
+    }
 }
+
